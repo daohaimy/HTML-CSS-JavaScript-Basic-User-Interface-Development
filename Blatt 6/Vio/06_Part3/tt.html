@@ -1,0 +1,166 @@
+<!doctype html>
+<html lang="zxx">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>index.html</title>
+    <link href="./css/bootstrap.min.css" rel="stylesheet">
+    <link href="./css/myCss.css" rel="stylesheet">
+  </head>
+  <body>
+    <div class="container-xxl">
+    <div class="row">
+    <div class="border border-primary">
+
+<!--Navigationsleiste-->
+<nav class="navbar navbar-expand-lg bg-info">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="">Navbar</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll" aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarScroll">
+      <ul class="navbar-nav me-auto my-2 my-lg-0 navbar-nav-scroll" style="--bs-scroll-height: 100px;">
+
+        <!--Startseite-->
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="index.html">Startseite</a>
+        </li>
+
+        <!--Hochschule-->
+        <li class="nav-item">
+          <a class="nav-link" href="hs.html">Hochschule</a>
+        </li>
+
+        <!--Tool Tip-->
+        <li class="nav-item">
+          <a class="nav-link" href="">Tool Tip</a>
+        </li>
+
+        <!--Hilfreiche Seiten - Dropdown-->
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            Hilfreiche Seiten
+          </a>
+          <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="https://www.studentenwerk-osnabrueck.de/de/essen/speiseplaene">Mensa Westerberg - Speiseplan</a></li>
+            <li><a class="dropdown-item" href="https://www.bib.hs-osnabrueck.de/">Bibliothek Westerberg</a></li>
+            <li><hr class="dropdown-divider"></li>
+            <li><a class="dropdown-item" href="https://www.vos.info/">VOS - Verfehrsgemeinschaft Osnabrück</a></li>
+            <li><a class="dropdown-item" href="https://www.bahn.de/">Deutsche Bahn</a></li>
+          </ul>
+        </li>
+      </ul>
+      <form class="d-flex" role="search">
+        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+        <button class="btn btn-light" type="submit">Search</button>
+      </form>
+
+    </div>
+  </div>
+</nav>
+
+<!--Inhalt Anfang-->
+<div class="text-center text-decoration-underline">
+  <p class="fs-1">Tool Tip
+  </p>
+</div>
+
+<!--Collapse-->
+<div class="container bg-light accordionContainer">
+  <div class="dist"></div>
+  <div class="accordion" id="accordion">
+      <div class="accordion-item">
+          <h2 class="accordion-header" id="headerOne">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne">
+                  Friday
+              </button>
+          </h2>
+          <div id="collapseOne" class="accordion-collapse collapse">
+              <div class="accordion-body">
+                  <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.</p>
+              </div>
+            </div>
+      </div>
+      <div class="accordion-item">
+          <h2 class="accordion-header" id="headerTwo">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo">
+                  Saturday
+              </button>
+          </h2>
+          <div id="collapseTwo" class="accordion-collapse collapse">
+              <div class="accordion-body">
+                <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.</p>
+              </div>
+            </div>
+      </div>
+      <div class="accordion-item">
+          <h2 class="accordion-header" id="headerThree">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree">
+                  Sunday
+              </button>
+          </h2>
+          <div id="collapseThree" class="accordion-collapse collapse">
+              <div class="accordion-body">
+                  <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.</p>
+              </div>
+            </div>
+      </div>
+  </div>
+  <div class="dist"></div>
+</div>
+
+<!--Button Posteingang-->
+<div class="p-3">
+    <button type="button" class="btn btn-primary position-relative">
+      Posteingang
+      <span class="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-danger">
+        37+
+      </span>
+    </button>
+</div>
+
+<!--Progress-->
+<h1 class="text-center">Progress Bar</h1>
+<div class="progress">
+    <div class="progress-bar bg-success" role="progressbar" style="width: 92%;" aria-valuenow="92" aria-valuemin="0" aria-valuemax="100">92%</div>
+</div>
+
+<!--Button Leiste-->
+            <div class="text-center">
+              <div class="btn-group mt-3 mb-3" role="group">
+                  <input type="radio" class="btn-check" name="essen" id="btn1">
+                  <label class="btn btn-outline-primary" for="btn1">Pizza</label>
+              
+                  <input type="radio" class="btn-check" name="essen" id="btn2">
+                  <label class="btn btn-outline-primary" for="btn2">Nudeln</label>
+              
+                  <input type="radio" class="btn-check" name="essen" id="btn3">
+                  <label class="btn btn-outline-primary" for="btn3">Döner</label>
+
+                  <input type="radio" class="btn-check" name="essen" id="btn4">
+                  <label class="btn btn-outline-primary" for="btn4">Pommes</label>
+
+                  <input type="radio" class="btn-check" name="essen" id="btn5">
+                  <label class="btn btn-outline-primary" for="btn5">Salat</label>
+              </div>
+          </div>
+
+<!-- Quelle https://stackoverflow.com/questions/18672452/left-align-and-right-align-within-div-in-bootstrap -->
+<div class="d-flex justify-content-between">
+  <div>
+     © 20?? GUIE, Praktikum
+  </div>
+  <div>
+   <p><a href="#" class="pe-auto">Back to top</a> </p>
+       </div>
+      </div>
+   </div>
+  </div>
+</div>
+    
+
+<!--Javascript-->
+<script src="js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
