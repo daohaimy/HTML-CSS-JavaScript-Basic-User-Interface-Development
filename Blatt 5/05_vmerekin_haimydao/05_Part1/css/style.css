@@ -1,0 +1,47 @@
+html{
+	background-image: url(../assets/calculator-385506_1920.jpg);
+	font-size: 34px;
+}
+
+h1{
+	text-decoration: underline;
+}
+
+#math{
+	background-color: silver;
+	opacity: 70%;
+	padding: 30px;
+	width: auto;
+}
+
+table.math{
+}
+
+td.head{
+	text-decoration: underline;
+}
+
+.number{
+	width: 100px;
+}
+
+input{
+	font-size: 34px;
+}
+input:invalid{background-color: red;}	/* Bedingung nicht erfüllt */
+input:valid{background-color: green;}	/* Bedingung erfüllt --> erlaubte Zeichen */
+
+.btnSend{
+	width: 70px;
+	font-size: 34px;
+}
+td.symbol{
+	font-size: 24px;
+	font-weight: bold;
+	background-color: white;
+	width: 40px;
+	text-align: center;
+}
+#ergAdd, #ergSub, #ergMult, #ergDiv{
+	margin-left: 30px;
+}

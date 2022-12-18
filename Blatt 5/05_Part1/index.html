@@ -1,0 +1,36 @@
+<!DOCTYPE HTML>
+<html lang="zxx">
+<head>
+	<title> Grundrechenarten </title>
+	<meta charset="utf-8">
+	<link href="css/style.css" rel="stylesheet">
+</head>
+<body>
+	<h1> Einfacher Rechner </h1>
+	<div id="math">
+	<table class="math">
+		<tr>
+			<td colspan="5" class="head"><h3> Addition: </h3></td>
+		</tr>
+		<tr>
+			<td> <input class="number" id="add1" type="text" pattern="^[+-]?[0-9]{1,99}?$"> </td>
+			<td class="symbol"> <span class="symbol">+</span> </td>
+			<td> <input class="number" id="add2" type="text" pattern="^[+-]?[0-9]{1,99}?$"> </td>
+			<td> <button class="btnSend" onclick="getAdd()" type="button" id="add" > = </button> </td>
+			<td> <span id="ergAdd"></span> </td>
+		</tr>
+		<tr>
+			<td colspan="5" class="head"><h3> Subtraktion: </h3></td>
+		</tr>
+		<tr>
+			<td> <input class="number" id="sub1" type="text" pattern="^[+-]?[0-9]{1,99}?$"> </td>
+			<td class="symbol"> <span class="symbol">-</span> </td>
+			<td> <input class="number" id="sub2" type="text" pattern="^[+-]?[0-9]{1,99}?$"> </td>
+			<td> <button class="btnSend" onclick="getSub()" type="button" id="sub" > = </button> </td>
+			<td> <span id="ergSub"></span> </td>
+		</tr>
+	</table>
+	</div>
+	<script src="./js/myScript.js"></script>
+</body>
+</html>
