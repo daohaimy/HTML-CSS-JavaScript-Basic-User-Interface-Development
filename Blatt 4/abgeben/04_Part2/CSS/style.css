@@ -1,0 +1,13 @@
+  @media screen and (min-width: 800px) {
+
+    * {
+      box-sizing: border-box;
+    }
+
+    .nebeneinander {
+      float: left;
+      width: 50%;
+      padding: 2%;
+    }
+
+    }

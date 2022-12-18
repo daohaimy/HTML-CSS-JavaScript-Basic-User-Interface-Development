@@ -1,0 +1,9 @@
+@media screen and (min-width: 800px) {
+
+.separator{
+  float: left;
+  width: 50%;
+  padding: 1%;
+  box-sizing: border-box;
+}
+}

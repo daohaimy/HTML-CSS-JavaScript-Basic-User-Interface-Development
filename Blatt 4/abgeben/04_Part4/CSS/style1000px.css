@@ -1,0 +1,13 @@
+@media only screen and (min-width:1000px) { 
+body{
+    width: 100%;
+    background-color: #40E0D0;
+    background-image: url("https://www.hs-osnabrueck.de/fileadmin/_processed_/5/1/csm_2338_Hochschule_OS_Image-7x3_1ad19521f3.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position-x: center;
+    background-position-y: 13%;
+    background-size: 90%;
+    
+}
+}

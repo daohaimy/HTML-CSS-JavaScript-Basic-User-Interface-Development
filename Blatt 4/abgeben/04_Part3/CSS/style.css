@@ -1,0 +1,37 @@
+body{
+    width: 80%;
+}
+
+h2 {
+    text-align: center;
+    text-decoration: underline;
+}
+
+.liegend {
+    margin-left: 20%;
+    background-color:rgb(253, 245, 235);
+}
+
+.stehend {
+    margin-left: 20%;
+    background-color:rgb(255, 207, 149);   
+}
+
+img {
+    width: 60%;
+    border-radius: 3% 3% 3% 3%;
+    margin-left: 20%;    
+}
+
+
+@media screen and (max-width: 480px) {
+    .liegend {
+        display:none;
+    }
+}
+
+@media screen and (min-width: 481px) and (max-width: 1021px) {
+    .stehend {
+        display: none;
+    }
+}

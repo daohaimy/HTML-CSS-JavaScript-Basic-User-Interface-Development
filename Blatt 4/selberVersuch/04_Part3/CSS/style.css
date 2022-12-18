@@ -1,0 +1,40 @@
+img{
+  width: 80%;
+  height: 80%;
+  border-radius: 10%;
+}
+div h2{
+  text-decoration: underline;
+}
+
+div{
+}
+
+
+@media only screen and (orientation: landscape) {
+  .liegendes{
+    text-align: center;
+    background-color: #ffad001c;
+    margin-left: 150px;
+    margin-right: 150px;
+  }
+  .stehendes{
+    visibility: hidden;
+    width: 0px;
+    height: 0px;
+  }
+}
+
+@media only screen and (orientation: portrait) {
+    .stehendes{
+      background-color: #ffad0040;
+      text-align: center;
+      margin-left: 50px;
+      margin-right: 50px;
+    }
+    .liegendes{
+      visibility: hidden;
+      width: 0px;
+      height: 0px;
+    }
+  }
