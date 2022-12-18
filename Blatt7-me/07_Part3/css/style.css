@@ -1,0 +1,18 @@
+.einfuehrung{
+    background-color: #30343F !important;
+}
+
+.inhalt{
+    background-color: #E0E0E0 !important;
+}
+
+.rot{
+    background-color: #D72638 !important;
+}
+
+a{
+    color: #D72638 !important;
+}
+a:hover{
+    color: #30343F !important;
+}

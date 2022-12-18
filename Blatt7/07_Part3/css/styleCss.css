@@ -1,0 +1,19 @@
+.uk-section-secondary{
+    background-color: #30343F !important;
+}
+
+.uk-section-muted{
+    background-color: #E0E0E0 !important;
+}
+
+a{
+    color: #D72638 !important;
+}
+
+a:hover {
+    color: #30343F !important;
+ }
+
+.uk-section-primary{
+    background-color: #D72638 !important;
+}

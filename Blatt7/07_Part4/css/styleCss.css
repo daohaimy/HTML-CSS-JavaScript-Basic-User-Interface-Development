@@ -1,0 +1,34 @@
+.uk-navbar-container {
+    background-color: #63564e !important;
+}
+
+.uk-icon-button {
+    background-color: #a79d97 !important;
+}
+
+.uk-text-italic {
+    color:  #69432e !important;
+}
+
+.uk-card-default {
+    background-color: #ccc9c7 !important;   
+}
+
+progress::-webkit-progress-value {
+    background-color:  #9dbe72 !important;
+}
+
+button {
+    background-color:  #9dbe72 !important;
+}
+
+.uk-background-secondary {
+    background-color:  #493f36 !important;
+}
+
+.uk-text-muted{
+    color: #ffffff !important;    
+}
+.uk-section-secondary{
+    background-color: #63564e !important;
+}

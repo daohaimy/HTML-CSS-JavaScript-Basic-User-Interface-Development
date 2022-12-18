@@ -1,0 +1,416 @@
+<!DOCTYPE html>
+<html lang="zxx">
+   <head>
+      <title>Title</title>
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <link rel="stylesheet" href="css/uikit.min.css" />
+      <link rel="stylesheet" href="css/styleCss.css" />
+      <script src="js/uikit.min.js"></script>
+      <script src="js/uikit-icons.min.js"></script>
+   </head>
+   <body>
+    
+    <!--https://getuikit.com/docs/navbar-->
+    <div uk-sticky=" sel-target: uk-navbar-container; cls-active: uk-navbar-sticky">
+        <nav class="uk-navbar-container" uk-navbar="dropbar: true;">
+            <div class="uk-navbar-center">
+            <ul class="uk-navbar-nav">
+                <li>
+                    <a href="#home" class="uk-icon-button uk-text-secondary" uk-icon="home"></a>
+                </li>
+                <li>
+                    <a href="#unsereProdukte" uk-scroll>Unsere Produkte</a>
+                    <div class="uk-navbar-dropdown">
+                        <ul class="uk-nav uk-navbar-dropdown-nav">
+                            <li class="uk-active"><a href="" uk-scroll class="uk-text-secondary">Kaffeebohnen</a></li>
+                            <li><a href="#" uk-scroll class="uk-text-secondary">Kaffeevollautomaten</a></li>
+                            <li><a href="#" uk-scroll class="uk-text-secondary">Zubehör</a></li>
+                        </ul>
+                    </div>
+                </li>
+                <li><a href="#nachhaltigkeit" uk-scroll>Nachhaltigkeit</a></li>
+                <li><a href="#uns" uk-scroll>Über uns</a></li>
+            </ul>       
+            </div>
+        </nav>
+    </div>
+
+    <!--https://getuikit.com/docs/slideshow-->
+    <div class="uk-container ratio: 19:7 uk-padding-large">
+      <div class="uk-position-relative uk-visible-toggle uk-light" uk-slideshow="autoplay: true" tabindex="-1">
+         <ul class="uk-slideshow-items">
+             <li>
+                 <img src="assets/coffee-g361d87bb1_1920.jpg" alt="Kaffeebohnen" uk-cover>
+                 <div class="uk-overlay uk-overlay-primary uk-position-bottom uk-text-center uk-transition-slide-bottom">
+                     <h3 id="home" class="uk-margin-remove">Finde Deinen Lieblingskaffee</h3>
+                     <p class="uk-margin-remove">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                 </div>
+             </li>
+             <li>
+                 <img src="assets/neon-sign-gc7ba2b714_1920.jpg" alt="Kaffeelovers" uk-cover>
+                 <div class="uk-overlay uk-overlay-primary uk-position-bottom uk-text-center uk-transition-slide-bottom">
+                     <h3 class="uk-margin-remove">Delux Kaffee für unsere Coffelovers!</h3>
+                     <p class="uk-margin-remove">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                 </div>
+             </li>
+             <li>
+                 <img src="assets/coffee-gfe47b45aa_1920.jpg" alt="Kaffee" uk-cover>
+                 <div class="uk-overlay uk-overlay-primary uk-position-bottom uk-text-center uk-transition-slide-bottom">
+                     <h3 class="uk-margin-remove">Finde raus, welcher Kaffee zu dir passt!</h3>
+                     <p class="uk-margin-remove">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                 </div>
+             </li>
+         </ul>
+     
+         <a class="uk-position-center-left uk-position-small uk-hidden-hover" href="#" uk-slidenav-previous uk-slideshow-item="previous"></a>
+         <a class="uk-position-center-right uk-position-small uk-hidden-hover" href="#" uk-slidenav-next uk-slideshow-item="next"></a>
+     </div>
+    </div>
+     <!--Slideshow Ende-->
+     <div class="uk-margin-medium-left uk-margin-medium-right">
+
+     <!--https://getuikit.com/docs/column-->
+      <div class="uk-container uk-padding-large uk-text-center uk-background-muted uk-width-1-1">
+        <h3>Für jeden etwas dabei!</h3>
+          <div class="uk-column-1-3 uk-column-divider">
+            <!--https://getuikit.com/docs/icon-->
+              <span uk-icon="heart"></span>
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris.</p>
+              <span uk-icon="heart"></span>
+              <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
+              <span uk-icon="heart"></span>
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris.</p>
+
+          </div>
+          <br>
+          <div class="uk-column-1-3 uk-column-divider">
+              <span uk-icon="heart"></span>
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris.</p>
+              <span uk-icon="heart"></span>
+              <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
+              <span uk-icon="heart"></span>
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris.</p>
+
+          </div>
+      </div>
+    <!--Column Ende-->
+
+    <h2 id="unsereProdukte" class="uk-text-italic uk-text-secondary uk-padding-small">"Wer morgens lächelt, hat den richtigen Kaffee!"</h2>
+
+    <!--https://getuikit.com/docs/progress-->
+    <div class="uk-card uk-card-body uk-card uk-card-default">
+    <h4 class="uk-card-title"><span class="uk-text-bolder">90%</span> Kaffeearoma allein durch unsere nachhaltigen Kaffebohnen! Erreiche <span class="uk-text-bolder">100%</span> Genuss mit unseren Vollautomaten!</h4>
+    <progress id="js-progressbar" class="uk-progress" value="90" max="100"></progress>
+    </div>
+    <!--Progress Ende-->
+
+    <!--https://getuikit.com/docs/card-->
+    
+    <div class="uk-child-width-1-3@m uk-padding-small" uk-grid>
+        <div>
+            <div class="uk-card uk-card-default">
+                <div class="uk-card-media-top">
+                    <button class="uk-button uk-button-primary uk-position-top-right uk-position-small">Nachhaltig</button>
+                    <img src="assets/coffee-gf352335dc_1920.jpg" width="1800" height="1200" alt="Kaffebohnen">
+                </div>
+                <div class="uk-card-body">
+                    <h3 class="uk-card-title uk-padding-small">Media Top</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.</p>
+                </div>
+            </div>
+        </div>
+        <div>
+            <div class="uk-card uk-card-default">
+                <div class="uk-card-body">
+                    <h3 class="uk-card-title uk-padding-small">Media Bottom</h3>
+                    <button class="uk-button uk-button-primary uk-position-top-right uk-position-small">Kaffeearoma</button>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.</p>
+                </div>
+                <div class="uk-card-media-bottom">
+                    <img src="assets/coffee-g774fbe247_1920.jpg" width="1800" height="1200" alt="Gemahlener Kaffee">
+                </div>
+            </div>
+        </div>
+        <div>
+            <div class="uk-card uk-card-default">
+                <div class="uk-card-media-top">
+                    <img src="assets/coffee-g8302c02bb_1920.jpg" width="1800" height="1200" alt="Kaffeetasse">
+                </div>
+                <div class="uk-card-body">
+                    <h3 class="uk-card-title uk-padding-small">Media Top</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--Card ende-->
+
+
+    <!--https://getuikit.com/docs/slider-->
+<div class="uk-padding-large"></div>
+<div class="uk-background-secondary uk-padding-small">
+    <h2 class="uk-text-muted">Kaffevollautomaten</h2>
+    <div class=" uk-margin-auto uk-position-relative uk-visible-toggle uk-light" tabindex="-1" uk-slider="clsActivated: uk-transition-active; center: true">
+
+        <div class="uk-position-relative uk-visible-toggle uk-light" tabindex="-1">
+    
+            <ul class="uk-slider-items uk-child-width-1-2@s uk-grid">
+                <li>
+                    <div class="uk-card uk-card-default">
+                        <div class="uk-card-media-top">
+                            <img src="assets/coffee-g5f52aead1_1920.jpg" width="1800" height="1200" alt="Kaffevollautomat">
+                        </div>
+                        <div class="uk-card-body">
+                            <h3 class="uk-card-title">Headline</h3>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.</p>
+                        </div>
+                    </div>
+                </li>
+                <li>
+                    <div class="uk-card uk-card-default">
+                        <div class="uk-card-media-top">
+                            <img src="assets/milk-2298953_960_720.jpg" width="1800" height="1200" alt="Milchschaum">
+                        </div>
+                        <div class="uk-card-body">
+                            <h3 class="uk-card-title">Headline</h3>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.</p>
+                        </div>
+                    </div>
+                </li>
+                <li>
+                    <div class="uk-card uk-card-default">
+                        <div class="uk-card-media-top">
+                            <img src="assets/coffee-machine-g72f012b43_1920.jpg" width="1800" height="1200" alt="Kaffevollautomat">
+                        </div>
+                        <div class="uk-card-body">
+                            <h3 class="uk-card-title">Headline</h3>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.</p>
+                        </div>
+                    </div>
+                </li>
+                <li>
+                    <div class="uk-card uk-card-default">
+                        <div class="uk-card-media-top">
+                            <img src="assets/coffee-g5f52aead1_1920.jpg" width="1800" height="1200" alt="Vollautomat">
+                        </div>
+                        <div class="uk-card-body">
+                            <h3 class="uk-card-title">Headline</h3>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.</p>
+                        </div>
+                    </div>
+                </li>
+                <li>
+                    <div class="uk-card uk-card-default">
+                        <div class="uk-card-media-top">
+                            <img src="assets/coffee-machine-g715a1a33a_1920.jpg" width="1800" height="1200" alt="Kaffeautomat">
+                        </div>
+                        <div class="uk-card-body">
+                            <h3 class="uk-card-title">Headline</h3>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.</p>
+                        </div>
+                    </div>
+                </li>
+            </ul>
+    
+            <a class="uk-position-center-left uk-position-small uk-hidden-hover" href="#" uk-slidenav-previous uk-slider-item="previous"></a>
+            <a class="uk-position-center-right uk-position-small uk-hidden-hover" href="#" uk-slidenav-next uk-slider-item="next"></a>
+    
+        </div>
+    
+        <ul class="uk-slider-nav uk-dotnav uk-flex-center uk-margin"></ul>
+
+    </div>
+    </div>
+</div>
+    
+<!--Slider Ende-->
+
+<div class="uk-margin-large-left uk-margin-large-right uk-padding-larg">
+<!--https://getuikit.com/docs/article-->
+<article class="uk-article">
+    <div class="uk-padding-larg"></div>
+
+    <h3 id="nachhaltigkeit" class="uk-article-title"><a class="uk-link-reset uk-text-bold" href="">Nachhaltig! Was denn sonst?!</a></h3>
+
+    <p class="uk-article-meta">Written by <a href="#">Super User</a> on 12 April 2012. Posted in <a href="#">Blog</a></p>
+
+    <p class="uk-text-lead uk-text-bold">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip.</p>
+
+        <p class="uk-text-bolder">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore 
+        magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea 
+        commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla 
+        pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id 
+        est laborum. </p> 
+        
+        <p class="uk-text-bolder">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore 
+        magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea 
+        commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla 
+        pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est 
+        laborum.Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore 
+        et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex 
+        ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat 
+        nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id 
+        est laborum. </p>
+        
+        <p class="uk-text-bolder">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore 
+        magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea 
+        commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla 
+        pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id 
+        est laborum</p>
+
+    <div class="uk-grid-small uk-child-width-auto" uk-grid>
+        <div>
+            <a class="uk-button uk-button-text" href="#">Read more</a>
+        </div>
+        <div>
+            <a class="uk-button uk-button-text" href="#">5 Comments</a>
+        </div>
+    </div>
+
+</article>
+
+<!--Article Ende-->
+<hr>
+<!--https://getuikit.com/docs/comment-->
+
+<ul class="uk-comment-list uk-padding-larg">
+    <li>
+        <article class="uk-comment uk-visible-toggle" tabindex="-1" role="comment">
+            <header class="uk-comment-header uk-position-relative">
+                <div class="uk-grid-medium uk-flex-middle" uk-grid>
+                    <div class="uk-width-auto">
+                        <img class="uk-comment-avatar" src="assets/attractive-gd8a7ee725_1920.jpg" width="80" height="80" alt="Frau">
+                    </div>
+                    <div class="uk-width-expand">
+                        <h4 class="uk-comment-title uk-margin-remove"><a class="uk-link-reset" href="#">Author</a></h4>
+                        <p class="uk-comment-meta uk-margin-remove-top"><a class="uk-link-reset" href="#">9 days ago</a></p>
+                    </div>
+                </div>
+                <div class="uk-position-top-right uk-position-small uk-hidden-hover"><a class="uk-link-muted" href="#">Reply</a></div>
+            </header>
+            <div class="uk-comment-body">
+                <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.</p>
+            </div>
+        </article>
+        <ul>
+            <li>
+                <article class="uk-comment uk-comment-primary uk-visible-toggle" tabindex="-1" role="comment">
+                    <header class="uk-comment-header uk-position-relative">
+                        <div class="uk-grid-medium uk-flex-middle" uk-grid>
+                            <div class="uk-width-auto">
+                                <img class="uk-comment-avatar" src="assets/beard-g8769d51cb_1920.jpg" width="80" height="80" alt="">
+                            </div>
+                            <div class="uk-width-expand">
+                                <h4 class="uk-comment-title uk-margin-remove"><a class="uk-link-reset" href="#">Author</a></h4>
+                                <p class="uk-comment-meta uk-margin-remove-top"><a class="uk-link-reset" href="#">8 days ago</a></p>
+                            </div>
+                        </div>
+                        <div class="uk-position-top-right uk-position-small uk-hidden-hover"><a class="uk-link-muted" href="#">Reply</a></div>
+                    </header>
+                    <div class="uk-comment-body">
+                        <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.</p>
+                    </div>
+                </article>
+            </li>
+            <li>
+                <article class="uk-comment uk-visible-toggle" tabindex="-1" role="comment">
+                    <header class="uk-comment-header uk-position-relative">
+                        <div class="uk-grid-medium uk-flex-middle" uk-grid>
+                            <div class="uk-width-auto">
+                                <img class="uk-comment-avatar" src="assets/attractive-gd8a7ee725_1920.jpg" width="80" height="80" alt="Frau">
+                            </div>
+                            <div class="uk-width-expand">
+                                <h4 class="uk-comment-title uk-margin-remove"><a class="uk-link-reset" href="#">Author</a></h4>
+                                <p class="uk-comment-meta uk-margin-remove-top"><a class="uk-link-reset" href="#">7 days ago</a></p>
+                            </div>
+                        </div>
+                        <div class="uk-position-top-right uk-position-small uk-hidden-hover"><a class="uk-link-muted" href="#">Reply</a></div>
+                    </header>
+                    <div class="uk-comment-body">
+                        <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.</p>
+                    </div>
+                </article>
+            </li>
+        </ul>
+        <li>
+        <article class="uk-comment uk-visible-toggle" tabindex="-1" role="comment">
+            <header class="uk-comment-header uk-position-relative">
+                <div class="uk-grid-medium uk-flex-middle" uk-grid>
+                    <div class="uk-width-auto">
+                        <img class="uk-comment-avatar" src="assets/beautiful-gcd06f0775_1920.jpg" width="80" height="80" alt="Buisness Woman">
+                    </div>
+                    <div class="uk-width-expand">
+                        <h4 class="uk-comment-title uk-margin-remove"><a class="uk-link-reset" href="#">Author</a></h4>
+                        <p class="uk-comment-meta uk-margin-remove-top"><a class="uk-link-reset" href="#">4 days ago</a></p>
+                    </div>
+                </div>
+                <div class="uk-position-top-right uk-position-small uk-hidden-hover"><a class="uk-link-muted" href="#">Reply</a></div>
+            </header>
+            <div class="uk-comment-body">
+                <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.</p>
+            </div>
+        </article>
+    </li>
+    <li>
+        <article class="uk-comment uk-visible-toggle" tabindex="-1" role="comment">
+            <header class="uk-comment-header uk-position-relative">
+                <div class="uk-grid-medium uk-flex-middle" uk-grid>
+                    <div class="uk-width-auto">
+                        <img class="uk-comment-avatar" src="assets/model-g0b13945cc_1920.jpg" width="80" height="80" alt="Business Mann">
+                    </div>
+                    <div class="uk-width-expand">
+                        <h4 class="uk-comment-title uk-margin-remove"><a class="uk-link-reset" href="#">Author</a></h4>
+                        <p class="uk-comment-meta uk-margin-remove-top"><a class="uk-link-reset" href="#">Yesterday</a></p>
+                    </div>
+                </div>
+                <div class="uk-position-top-right uk-position-small uk-hidden-hover"><a class="uk-link-muted" href="#">Reply</a></div>
+            </header>
+            <div class="uk-comment-body">
+                <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.</p>
+            </div>
+        </article>
+    </li>
+</ul>
+<!--Comment Ende-->
+</div>
+
+<!--https://getuikit.com/docs/section-->
+<div class="uk-section uk-section-secondary">
+    <div class="uk-container">
+
+        <div class="uk-section uk-section-secondary">
+            <div class=" uk-container uk-margin-large-left uk-margin-large-right">
+                <div class="uk-grid-match uk-child-width-1-2@m" uk-grid>
+                    <div>
+                        <h3>Kontakt</h3>
+                        <p><span class="uk-margin-small-top" uk-icon="icon: location; ratio: 1"></span>&ensp; Coole Straße 123<br>&ensp;&ensp;&ensp;&ensp;Osnabrück, Germany</p>
+                        <p><span uk-icon="icon: receiver; ratio: 1"></span>&ensp; 0123456789</p>
+                        <p><span uk-icon="icon: mail; ratio: 1"></span>&ensp; dasisteineemail@gmail.com</p>
+                    </div>
+                    <div>
+                        <h3 id="uns">Über Uns</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut ero labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco. Lorem ipsum dolor sit amet, consectetur </p>
+                        <div class="uk-width-1-3@m">
+                            <div class="uk-grid uk-child-width-1-3@s uk-text-center uk-text-secondary" uk-grid>
+                               <div>
+                                  <a href="https://www.hs-osnabrueck.de/" class="uk-icon-button uk-text-secondary" uk-icon="twitter"></a>
+                               </div>
+                               <div>
+                                  <a href="https://www.hs-osnabrueck.de/" class="uk-icon-button uk-text-secondary" uk-icon="facebook"></a>
+                               </div>
+                               <div>
+                                  <a href="https://www.hs-osnabrueck.de/" class="uk-icon-button uk-text-secondary" uk-icon="youtube"></a>
+                               </div>
+                            </div>
+                         </div>
+                    </div>
+                </div>
+            </div>
+         </div>
+
+    </div>
+</div>
+<!--section ende-->
+   </body>
+</html>
