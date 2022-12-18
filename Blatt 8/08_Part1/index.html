@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="zxx">
+   <head>
+    <title>Formulare und Eingabenmasken</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="css/style.css">
+   </head>
+   <body>
+      <!--https://www.w3schools.com/tags/att_input_type.asp-->
+      <h1>Bitte ausfüllen und absenden</h1>
+
+    <form action="/action_page.php">
+    <div>
+        <label for="vorname">Vorname*</label>
+        <input type="text" id="vorname" name="vorname" placeholder="Max" required><br><br><br>
+      </div>
+      <div  >
+        <label for="name">Name*</label>
+        <input type="text" id="name" name="name" placeholder="Mustermann" required><br><br><br>
+      </div>
+      <div  >
+        <label for="strasse">Straße*</label>
+        <input type="text" id="strasse" name="strasse" placeholder="Mustermann" required><br><br><br>
+      </div>
+
+    <!--https://www.computerbase.de/forum/threads/postleitzahl-im-html-input-validieren.1876948/-->
+      <div>
+        <label for="postleitzahl">Postleitzahl*</label>
+        <input type="text" id="postleitzahl" name="postleitzahl" minlength="5" maxlength="5" pattern="[0-9]{1}[1-9]{1}[0-9]{1}[0-9]{1}[0-9]{1}" title="Bitte exakt 5 Ziffern eingeben!" placeholder="deutsche PLZ" required><br><br><br>
+      </div>
+      <div  > 
+        <label for="ort">Ort*</label>
+        <input type="text" id="ort" name="ort" placeholder="Musterdorf" required><br><br><br>
+      </div> 
+        <!--https://www.w3schools.com/jsref/prop_radio_checked.asp-->
+      
+        <label id="geschlechtlabel" for="Geschlecht" required>Geschlecht*:</label>
+        <input id="geschlechti" name="geschlecht" type="radio" value="w">
+        <label id="geschlechtl" for="gw">weiblich</label><br>
+        <input id="geschlechti" name="geschlecht" type="radio" value="m">
+        <label id="geschlechtl" for="gm">männlich</label><br>
+        <input id="geschlechti" name="geschlecht" type="radio"  value="d">
+        <label id="geschlechtl" for="gd">divers</label><br><br>
+
+        <div>
+         <label for="note" required>Ihre Note*</label>
+         <select name="note">
+          <option value="disabled" disabled selected hidden>...</option>
+           <option value="1">sehr gut</option>
+           <option value="2">gut</option>
+           <option value="3">befriedigend</option>
+           <option value="4">ausreichend</option>
+           <option value="5">mangelhaft</option>
+           <option value="6">ungenügend</option>
+         </select>
+        </div>
+
+         <div>
+         <label for="abschluss">Abschluss</label>
+         <select name="abschluss" id="abschluss">
+          <option value="disabled" disabled selected hidden>...</option>
+           <option value="beng">B.Eng.</option>
+           <option value="ba">B.A</option>
+           <option value="bsc">B.Sc</option>
+           <option value="b?">B.???</option>
+         </select>
+         </div>
+
+         <div>
+         <label for="email_input">EmailId</label>
+        <input type="email" id="email" name="email" placeholder="mmustermann@hs-osnabrueck.de" title="Bitte geben Sie eine E-Mail-Adresse ein." id="newtext">
+         </div>
+         <br>
+         <div>
+        <label for="handy">Handy</label>
+        <input type="text" minlength="4" maxlength="10" title="Bitte geben Sie gültige Handynummer ein." pattern="[0]{1}[0-9]{3,11}" id="handy" name="handy" placeholder="">
+         </div>
+         <br>
+         <div>
+        <label for="remarks">Bemerkungen:</label>
+        <textarea type="bemerkungen" id="remarks" name="bemerkungen"></textarea>
+         </div>
+         <br><br>
+         
+         <div>
+          <input type="reset" class="button" value="Zurücksetzen"><br><br>
+          <input type="submit" class="button" id="submit" value="Submit Form" onclick="myFunction()">
+         </div>
+         <br>
+        </form>
+
+        <script src="./js/function.js"></script>
+        <script src="./js/plzarray.js"></script>
+   </body>
+</html>

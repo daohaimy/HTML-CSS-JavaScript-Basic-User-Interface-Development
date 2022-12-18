@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <title>Formulare und Eingabemasken</title>
+    <link href="css/style.css" rel="stylesheet">
+
+</head>
+<body>
+<!-- Source: https://www.w3schools.com/html/html_forms.asp -->
+<!-- Source: https://developer.mozilla.org/en-US/docs/Web/HTML/Element/form -->
+<form id="contactForm">
+    <h1>Bitte ausfüllen und absenden</h1>
+    <div class="grid-container">
+        <!-- Source: https://stackoverflow.com/questions/2385701/regular-expression-for-first-and-last-name -->
+        <label for="name">Vorname *</label>
+        <input type="text" name="name" id="name" placeholder="Max" required>
+
+        <label for="surname">Name*</label>
+        <input type="text" name="surname" id="surname" placeholder="Mustermann" required>
+
+        <label for="street">Straße*</label>
+        <input type="text" name="street" id="street" placeholder="Musterstraße" required>
+
+        <!-- Source: https://stackoverflow.com/questions/7926687/regular-expression-german-zip-codes -->
+        <label for="postalcode">Postleitzahl*</label>
+        <input type="text" name="postalcode" id="postalcode" placeholder="deutsche PLZ" pattern="^(?!01000|99999)(0[1-9]\d{3}|[1-9]\d{4})$" required>
+
+        <label for="place">Ort*</label>
+        <input type="text" name="place" id="place" placeholder="Musterdorf" required>
+
+        <p>Geschlecht*</p>
+        <div id="gender" style="align-content:flex-start;">
+            <label><input type="radio" name="gender" id="female" value="f" required>weiblich</label>
+            <br>
+            <label><input type="radio" name="gender" id="male" value="m">männlich</label>
+            <br>
+            <label><input type="radio" name="gender" id="divers" value="d">divers</label>
+        </div>
+
+        <!-- Source: https://developer.mozilla.org/en-US/docs/Web/HTML/Element/select -->
+        <label for="grade">Ihre Note*</label>
+        <select name="grade" id="grade" required>
+            <option value="" selected>...</option>
+            <option value="1">sehr gut</option>
+            <option value="2">gut</option>
+            <option value="3">befriedigend</option>
+            <option value="4">ausreichend</option>
+            <option value="5">mangelhaft</option>
+            <option value="6">ungenügend</option>
+        </select>
+
+        <label for="graduation">Abschluss</label>
+        <select name="graduation" id="graduation">
+            <option value="" selected>...</option>
+            <option value="beng">B.Eng.</option>
+            <option value="ba">B.A.</option>
+            <option value="bsc">B.Sc.</option>
+            <option value="b???">B.???</option>
+        </select>
+
+        <!-- Source: https://emailregex.com/ -->
+        <label for="emailId">EmailId</label>
+        <input type="email" name="emailId" id="emailId" placeholder="mmustermann@hs-osnabrueck.de" pattern="(?:[a-z0-9!#$%&'*+/=?^_`{|}~-]+(?:\.[a-z0-9!#$%&'*+/=?^_`{|}~-]+)*|\x22(?:[\x01-\x08\x0b\x0c\x0e-\x1f\x21\x23-\x5b\x5d-\x7f]|\\[\x01-\x09\x0b\x0c\x0e-\x7f])*\x22)@(?:(?:[a-z0-9](?:[a-z0-9-]*[a-z0-9])?\.)+[a-z0-9](?:[a-z0-9-]*[a-z0-9])?|\[(?:(?:25[0-5]|2[0-4][0-9]|[01]?[0-9][0-9]?)\.){3}(?:25[0-5]|2[0-4][0-9]|[01]?[0-9][0-9]?|[a-z0-9-]*[a-z0-9]:(?:[\x01-\x08\x0b\x0c\x0e-\x1f\x21-\x5a\x53-\x7f]|\\[\x01-\x09\x0b\x0c\x0e-\x7f])+)\])">
+
+        <label for="mobile">Handy</label>
+        <input type="tel" name="mobile" id="mobile" pattern="^[0][0-9]{3,9}">
+
+        <label for="remarks">Bemerkungen:</label>
+        <textarea name="remarks" id="remarks"></textarea>
+        <input type="reset" value="Zurücksetzen" id="resetBtn">
+        <input type="submit" value="Submit Form" onclick="submitForm()" id="submitBtn">
+    </div>
+</form>
+
+    <script src="js/plzarray.js"></script>
+    <script src="js/function.js"></script>
+</body>
+</html>
