@@ -1,0 +1,51 @@
+Tandem:
+Name: Hai My Dao
+Name: Violetta Merekin
+
+Aufgabe 1:
+In der ersten Fehleranzeige hat uns die Language gefehlt. Diese haben wir im opening tag <html> wie folgt eingefügt: <html lang="en">. 
+Hierbei steht "en" für Englisch, um dies auf Deutsch zu ändern, gibt man "de" an.
+
+Des Weiteren mussten wir den Titel <title></title> und Kopf <head></head> hinzufügen, da diese immer in einem simplen HTML Dokument dazu gehören. 
+Im <head> werden die Meta Informationen über eine HTML Seite angegeben. 
+<Title> gibt einen Titel für die Seite an, diese wird in der Titelleiste des Browsers bzw. Registerkarte der Seite angezeigt.
+
+Zudem mussten wir auch das tag <meta> einfügen, da es die Metadaten (Information von Daten) angibt und im <head> sein muss. 
+Die Informationen sind zum Beispiel: Character set, Beschreibung, Keywords, Authoren, Ansichtsfenster.
+Um eine HTML-Seite korrekt anzuzeigen, muss ein Webbrowser wissen, welcher character set (charset) zu verwenden ist. 
+Wir verwenden UTF-8 als character set, und das bedeutet:
+ - UTF-8 verwendet die Werte von 0 bis 127 und von 160 bis 255
+ - ab dem Wert 256 setzt sich UTF-8 mit mehr als 10000 verschiedenen characters fort
+ - UTF-8 verwendet aber nicht die Werte von 128 bis 159
+Das UTF-8 Character set wird für HTML5 benutzt. Das UTF-8 Character Set deckt fast alle Zeichen und Symbole der Welt ab. 
+Viele Webentwickler empfehlen auch, dass man UTF-8 Character set für HTML5 benutzen soll.
+
+Ein weiterer Fehler war, dass wir die Ränder der Tablle mit dem Tag <style> im Tag <table> definiert haben.
+Um etwas in der Seite zu stylen (zum Beispiel: Tabellen), sollen wir das Tag <style> im Kopf <head><head> einfügen.
+
+Aufgabe 4:
+Am 19.07.2011 war die Website der HS Osnabrück relativ einfach gehalten, links waren mehrere Buttons unteinander geordnet, mit Oberthemen. 
+Beim Anklicken dieser Buttons gelangt man an Informationen des jeweiligen Oberpunkt. Oben rechts war eine farbige Leiste, jede Farbe stand für eine Fakultät. 
+Rechts konnte man Suchbegriffe eingeben, Informationen für unterschiedliche Personengruppen anklicken und wichtige Links wurden ebenfalls schnellersichtlich gemacht. 
+Unter den Links ist ein Twitter Button, der zum Twitter-Account der HS führt. 
+Bis zum 25.06.2014 wurde die Option hinzugefügt, die Website auf Englisch anzusehen, dies wurde vermutlich geändert, um Studenten zu ermöglichen, 
+die ein Auslands-Semester absolvieren oder ander sprachig sind, an Informationen zu gelangen. Zudem gibt es nun Icons, die auf die Facebook-, Twitter- sowie Youtube 
+Seite der HS führen. Dies wurde erweitert, um die Hochschule im Social Media Bereich zu präsentieren und vermutlich mehr Menschen aus der Zielgruppe zu erreichen und dem Trend zu folgen. 
+Der Hintergrund wurde von einem helleren Blau zu einem Grauton gewechselt, dadurch stechen nun die Inhalte der Website mehr raus. Auch wurde es den Usern der Website im Jahr 2014 einfacher gemacht, 
+eine Bewerbung einzureichen, indem diese sofort als zentraler Themenpunkt genannt wird und man durch einfachem Klicken zur richtigen Seite gelangt. Zudem wurden die einzelnen Nachrichtenpunkte und V
+eranstaltungen im Wechsel mit einem grauen und weissem Hintergrund hinterlegt. Diese Änderungen hat den Sinn, dass die Inhalte klar voneinander getrennt werden können und generell überscihtlicher für den User ist.
+Bis zum 24.07.2017 wurden einige Veränderungen vorgenommen. Das Logo der HS befindet sich statt rechts oben auf dem Bild mit einem dunkel blauen Hintergrund, nun ganz oben der Website zentral und alleine. 
+Das Logo wurde insgesamt mordernisiert. Das Logo wurde geändert, da sich der Designtrend ändert und die Technologien erweitert wurden. Das neue Design verleiht dem Logo mehr frische und wirkt somit auch ansprechender
+ein jüngeres Publikum. Ein altes Logo-Design hat auch die Wirkung auf einen User, dass die HS nicht mit der Zeit laufen würde und relativ veraltet ist. Zudem ist die wurden die Buttons mit den Oberthemen nun von links
+nach rechts nebeneinander geordnet und beim drauf halten der Maus werden alle Themenpunkte eingeblendet. Beim runterscrollen taucht eine Leiste mit einem Menüpunkt auf, inder die Themen zusätzlich eingeblendet werden.
+Dies führt dazu, dass der User schneller an die gesuchten Informationen gelangt und nicht nach oben scrollen muss. 
+Die Oberfläche wurde nun auchmit Videos und Bilder ausgestattet. Im obersten Teil wird eine Diashow angezeigt, die auf Videos verweisen, die Informationen zum Standort der HS, Bachlor- und Master der HS und Campus Lingen geben. Somit werden 
+alle Angebote der HS herausgehoben. Als nächstes wurde als Überschrift gewählt: "Herzlich Willkommen an der Hochschule Osnabrück", dies gibt dem User das Gefühl direkt angesprochen zu werden und die Hemmschwelle die
+Website zu erforschen wird verringert und die HS repräsentiert damit ein freundliches Umfeld. Die Nachrichten, Veranstaltungen und ergänzend Stellenangebote werden übersichtlicher dargestellt. Bedeutende Veranstaltungen
+werden zentral innerhalb eine blauen Kreises eingeblendet. Dies hilft den Usern schneller herauszufiltern, was Sie interessieren könnte und was demnächst ansteht. Auch wurden die Kontaktdaten optisch aufgefrischt, durch 
+ein Bild und wichtige Stabstellen wie Kontaktdaten für Informationen zum Studium oder Bewerbung, dem Helpdesk und der Hochschulleitung wurde seperat dargestellt. Somit kann sich der User schneller an die richtige Abteilung
+wenden und wird sich schneller bewerben. Wenn man weiter runterscrollt, sieht man die einzelnen Standorte die zur HS gehören, so kann der User sich schneller ein Bild davon machen, wie die Aufteilung ist.
+Im untersten Block wurde nun auch ein Zertifikat der Hochschule eingefügt, dies vermittelt einen seriöseren Eindruck.
+Die aktuelle Website ist der von 2017 sehr ähnlich. Die Kontakt-Icons der Social Media Bereiche sind nun oben links auf der Website zu sehen. Diese Änderung ist sehr sinnvoll, da die jüngere Generation immer mehr Wert auf
+Social-Media legt und die HS dem Trend folgen sollte. Des Weiteren wurde Instagramm hinzugefügt. Ein weiterer Kanal um weiterhin junge Zielgruppen zu erreichen. Unten rechts wurde das Zertifikat mit einem 50 Jahre Hoschule
+Siegel ausgetauscht, dies ist sinnvoll, um zu Veranschaulichen, dass die HS schon seit langer Zeit besteht und somit die Struktur, der Ablauf etc. koordinierter ist im Vergleich zu neueren Instutionen.
